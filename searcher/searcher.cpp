@@ -61,8 +61,7 @@ void get_user_input(std::string &path) {
 	}
 }
 
-int main(int argc, char* argv[])
-{
+int main(int argc, char* argv[]) {
 	// Needed for SHOpenFolderAndSelectItems to work
 	CoInitialize(NULL);
 
